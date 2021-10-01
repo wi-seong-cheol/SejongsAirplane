@@ -11,9 +11,9 @@ target 'SejongsAirplane' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Firestore'
 
+  pod 'iCarousel'
   
-  pod "CTPanoramaView", "~> 1.3"
-  pod "HSCycleGalleryView"
+  pod 'CTPanoramaView', '~> 1.3'
   
   target 'SejongsAirplaneTests' do
     inherit! :search_paths

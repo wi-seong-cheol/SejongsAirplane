@@ -342,7 +342,7 @@ PODS:
     - BoringSSL-GRPC (= 0.0.7)
     - gRPC-Core/Interface (= 1.28.2)
   - gRPC-Core/Interface (1.28.2)
-  - HSCycleGalleryView (1.2.0)
+  - iCarousel (1.8.3)
   - leveldb-library (1.22.1)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
@@ -355,7 +355,7 @@ DEPENDENCIES:
   - CTPanoramaView (~> 1.3)
   - Firebase/Analytics
   - Firebase/Firestore
-  - HSCycleGalleryView
+  - iCarousel
 
 SPEC REPOS:
   trunk:
@@ -373,7 +373,7 @@ SPEC REPOS:
     - GoogleUtilities
     - "gRPC-C++"
     - gRPC-Core
-    - HSCycleGalleryView
+    - iCarousel
     - leveldb-library
     - nanopb
     - PromisesObjC
@@ -393,11 +393,11 @@ SPEC CHECKSUMS:
   GoogleUtilities: f8a43108b38a68eebe8b3540e1f4f2d28843ce20
   "gRPC-C++": 13d8ccef97d5c3c441b7e3c529ef28ebee86fad2
   gRPC-Core: 4afa11bfbedf7cdecd04de535a9e046893404ed5
-  HSCycleGalleryView: 5101435175a26d08f1c062cf6cb245f58f09b425
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
 
-PODFILE CHECKSUM: 120e292199566b973a944229c92c493ce19a08cd
+PODFILE CHECKSUM: 3c32c0585fcae4e108daa6e56da332d7ed739ef9
 
 COCOAPODS: 1.10.1
