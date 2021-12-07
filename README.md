@@ -19,9 +19,8 @@
 
 - UIKit
 - Firebase
-- Paging Kit
-- MaterialComponents
-- CropViewController
+- iCarousel
+- CTPanoramaView
 
 <br></br>
 ### 팀 소개
