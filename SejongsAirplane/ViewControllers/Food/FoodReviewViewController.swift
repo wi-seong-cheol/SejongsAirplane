@@ -13,7 +13,7 @@ class FoodReviewViewController: UIViewController {
         debugLabel()
     }
     
-    func debugLabel() {
+    func debugLabel() { 
         reviewLabel.font = UIFont.MyriadPro(type: .bold, size: 12)
         maxLabel.font = UIFont.MyriadPro(type: .regular, size: 12)
         reviewTextView.font = UIFont.MyriadPro(type: .regular, size: 12)
