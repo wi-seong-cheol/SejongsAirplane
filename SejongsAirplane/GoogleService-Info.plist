@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>745167700057-dmhof8k6fb3t6caopqlltf8i7sip27ps.apps.googleusercontent.com</string>
+	<string>767808545840-77hk723dkdusj3i40ggfvvab3inphki3.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.745167700057-dmhof8k6fb3t6caopqlltf8i7sip27ps</string>
+	<string>com.googleusercontent.apps.767808545840-77hk723dkdusj3i40ggfvvab3inphki3</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCXNcaMOLAYFVa2_toltt_vrUEc8YqXG0Y</string>
+	<string>AIzaSyCxjwdsMMlC2hZj8eiSgfDQHwI6N-JhUG8</string>
 	<key>GCM_SENDER_ID</key>
-	<string>745167700057</string>
+	<string>767808545840</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.wi-seong.SejongsAirplane</string>
 	<key>PROJECT_ID</key>
-	<string>paperairplane-4127e</string>
+	<string>sejong-airplane</string>
 	<key>STORAGE_BUCKET</key>
-	<string>paperairplane-4127e.appspot.com</string>
+	<string>sejong-airplane.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:745167700057:ios:1369b09e1f1fe55b69b148</string>
+	<string>1:767808545840:ios:626f5598e15e9c664bf9f5</string>
 </dict>
 </plist>

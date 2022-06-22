@@ -20,16 +20,31 @@
 		4D7CE9982706CD7B00E2D134 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7CE9972706CD7B00E2D134 /* SettingViewController.swift */; };
 		4D7CE99A2706CD9100E2D134 /* ClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7CE9992706CD9100E2D134 /* ClubViewController.swift */; };
 		4D7CE99C2706CD9C00E2D134 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7CE99B2706CD9C00E2D134 /* FoodViewController.swift */; };
-		4D7CE99E2706CDA300E2D134 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7CE99D2706CDA300E2D134 /* MapViewController.swift */; };
 		4D7CE9A02706CDAF00E2D134 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7CE99F2706CDAF00E2D134 /* FAQViewController.swift */; };
-		4D7CE9A22706CDB900E2D134 /* RoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7CE9A12706CDB900E2D134 /* RoadViewController.swift */; };
-		4DE2587627061264006EA469 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DE2587527061264006EA469 /* GoogleService-Info.plist */; };
+		4D7CE9B02706E22F00E2D134 /* BuildingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7CE9AF2706E22F00E2D134 /* BuildingData.swift */; };
+		4D7CE9B22706ED5B00E2D134 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7CE9B12706ED5B00E2D134 /* FoodTableViewCell.swift */; };
+		4D999A022706FEFB00633400 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A012706FEFB00633400 /* FoodModel.swift */; };
+		4D999A0A270709E000633400 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D999A09270709E000633400 /* GoogleService-Info.plist */; };
+		4D999A0C27070BE600633400 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A0B27070BE600633400 /* FoodDetailViewController.swift */; };
+		4D999A0E27070C0900633400 /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A0D27070C0900633400 /* ReviewTableViewCell.swift */; };
+		4D999A1027070C6B00633400 /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A0F27070C6B00633400 /* ReviewModel.swift */; };
+		4D999A122707520E00633400 /* OpenSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A112707520E00633400 /* OpenSourceViewController.swift */; };
+		4D999A182707569200633400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D999A172707569200633400 /* Assets.xcassets */; };
+		4D999A1A270776A400633400 /* ClubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A19270776A400633400 /* ClubModel.swift */; };
+		4D999A1C2707847400633400 /* ClubDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A1B2707847400633400 /* ClubDetailViewController.swift */; };
+		4D999A1E27078C7A00633400 /* FAQTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A1D27078C7A00633400 /* FAQTableViewCell.swift */; };
+		4D999A2027078D2D00633400 /* FAQModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A1F27078D2D00633400 /* FAQModel.swift */; };
+		4D999A222707966500633400 /* FoodUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A212707966500633400 /* FoodUploadViewController.swift */; };
+		4D999A2527079A8C00633400 /* LocalDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A2427079A8C00633400 /* LocalDB.swift */; };
+		4D999A2727079EDF00633400 /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A2627079EDF00633400 /* SaveData.swift */; };
+		4D999A292707B93A00633400 /* FoodReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A282707B93A00633400 /* FoodReviewViewController.swift */; };
+		4D999A2B2707BCF700633400 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A2A2707BCF700633400 /* UIViewController + Extension.swift */; };
+		4D999A2D2707C48000633400 /* ClubUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D999A2C2707C48000633400 /* ClubUploadViewController.swift */; };
 		4DE39BBC2704A83900E7960F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39BBB2704A83900E7960F /* AppDelegate.swift */; };
 		4DE39BBE2704A83900E7960F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39BBD2704A83900E7960F /* SceneDelegate.swift */; };
 		4DE39BC02704A83900E7960F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39BBF2704A83900E7960F /* HomeViewController.swift */; };
 		4DE39BC32704A83900E7960F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE39BC12704A83900E7960F /* Main.storyboard */; };
 		4DE39BC62704A83900E7960F /* SejongsAirplane.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39BC42704A83900E7960F /* SejongsAirplane.xcdatamodeld */; };
-		4DE39BC82704A83B00E7960F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE39BC72704A83B00E7960F /* Assets.xcassets */; };
 		4DE39BCB2704A83B00E7960F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE39BC92704A83B00E7960F /* LaunchScreen.storyboard */; };
 		4DE39BD62704A83B00E7960F /* SejongsAirplaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39BD52704A83B00E7960F /* SejongsAirplaneTests.swift */; };
 		4DE39BE12704A83B00E7960F /* SejongsAirplaneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE39BE02704A83B00E7960F /* SejongsAirplaneUITests.swift */; };
@@ -70,17 +85,32 @@
 		4D7CE9972706CD7B00E2D134 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		4D7CE9992706CD9100E2D134 /* ClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubViewController.swift; sourceTree = "<group>"; };
 		4D7CE99B2706CD9C00E2D134 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
-		4D7CE99D2706CDA300E2D134 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4D7CE99F2706CDAF00E2D134 /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
-		4D7CE9A12706CDB900E2D134 /* RoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadViewController.swift; sourceTree = "<group>"; };
-		4DE2587527061264006EA469 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D7CE9AF2706E22F00E2D134 /* BuildingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingData.swift; sourceTree = "<group>"; };
+		4D7CE9B12706ED5B00E2D134 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		4D999A012706FEFB00633400 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		4D999A09270709E000633400 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D999A0B27070BE600633400 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		4D999A0D27070C0900633400 /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		4D999A0F27070C6B00633400 /* ReviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
+		4D999A112707520E00633400 /* OpenSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSourceViewController.swift; sourceTree = "<group>"; };
+		4D999A172707569200633400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D999A19270776A400633400 /* ClubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubModel.swift; sourceTree = "<group>"; };
+		4D999A1B2707847400633400 /* ClubDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubDetailViewController.swift; sourceTree = "<group>"; };
+		4D999A1D27078C7A00633400 /* FAQTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQTableViewCell.swift; sourceTree = "<group>"; };
+		4D999A1F27078D2D00633400 /* FAQModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQModel.swift; sourceTree = "<group>"; };
+		4D999A212707966500633400 /* FoodUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodUploadViewController.swift; sourceTree = "<group>"; };
+		4D999A2427079A8C00633400 /* LocalDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDB.swift; sourceTree = "<group>"; };
+		4D999A2627079EDF00633400 /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
+		4D999A282707B93A00633400 /* FoodReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodReviewViewController.swift; sourceTree = "<group>"; };
+		4D999A2A2707BCF700633400 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		4D999A2C2707C48000633400 /* ClubUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubUploadViewController.swift; sourceTree = "<group>"; };
 		4DE39BB82704A83900E7960F /* SejongsAirplane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SejongsAirplane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE39BBB2704A83900E7960F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DE39BBD2704A83900E7960F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4DE39BBF2704A83900E7960F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4DE39BC22704A83900E7960F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DE39BC52704A83900E7960F /* SejongsAirplane.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SejongsAirplane.xcdatamodel; sourceTree = "<group>"; };
-		4DE39BC72704A83B00E7960F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DE39BCA2704A83B00E7960F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DE39BCC2704A83B00E7960F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DE39BD12704A83B00E7960F /* SejongsAirplaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SejongsAirplaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +171,7 @@
 			children = (
 				4D7CE9872706AAE200E2D134 /* Fonts + Exstension.swift */,
 				4D7CE9952706BD0E00E2D134 /* UIBarButtonItem + Extension.swift */,
+				4D999A2A2707BCF700633400 /* UIViewController + Extension.swift */,
 			);
 			path = Exstension;
 			sourceTree = "<group>";
@@ -157,6 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				4D7CE9992706CD9100E2D134 /* ClubViewController.swift */,
+				4D999A1B2707847400633400 /* ClubDetailViewController.swift */,
+				4D999A2C2707C48000633400 /* ClubUploadViewController.swift */,
 			);
 			path = Club;
 			sourceTree = "<group>";
@@ -165,40 +198,59 @@
 			isa = PBXGroup;
 			children = (
 				4D7CE99B2706CD9C00E2D134 /* FoodViewController.swift */,
+				4D7CE9B12706ED5B00E2D134 /* FoodTableViewCell.swift */,
+				4D999A0B27070BE600633400 /* FoodDetailViewController.swift */,
+				4D999A0D27070C0900633400 /* ReviewTableViewCell.swift */,
+				4D999A212707966500633400 /* FoodUploadViewController.swift */,
+				4D999A282707B93A00633400 /* FoodReviewViewController.swift */,
 			);
 			path = Food;
-			sourceTree = "<group>";
-		};
-		4D7CE9A82706CDDC00E2D134 /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				4D7CE99D2706CDA300E2D134 /* MapViewController.swift */,
-			);
-			path = Map;
 			sourceTree = "<group>";
 		};
 		4D7CE9A92706CDDF00E2D134 /* FAQ */ = {
 			isa = PBXGroup;
 			children = (
 				4D7CE99F2706CDAF00E2D134 /* FAQViewController.swift */,
+				4D999A1D27078C7A00633400 /* FAQTableViewCell.swift */,
 			);
 			path = FAQ;
-			sourceTree = "<group>";
-		};
-		4D7CE9AA2706CDE600E2D134 /* Road */ = {
-			isa = PBXGroup;
-			children = (
-				4D7CE9A12706CDB900E2D134 /* RoadViewController.swift */,
-			);
-			path = Road;
 			sourceTree = "<group>";
 		};
 		4D7CE9AB2706CDF500E2D134 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
 				4D7CE9972706CD7B00E2D134 /* SettingViewController.swift */,
+				4D999A112707520E00633400 /* OpenSourceViewController.swift */,
 			);
 			path = Setting;
+			sourceTree = "<group>";
+		};
+		4D7CE9AE2706E1E500E2D134 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				4D7CE9AF2706E22F00E2D134 /* BuildingData.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		4D999A002706FEE600633400 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D999A012706FEFB00633400 /* FoodModel.swift */,
+				4D999A0F27070C6B00633400 /* ReviewModel.swift */,
+				4D999A19270776A400633400 /* ClubModel.swift */,
+				4D999A1F27078D2D00633400 /* FAQModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D999A2327079A7600633400 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4D999A2427079A8C00633400 /* LocalDB.swift */,
+				4D999A2627079EDF00633400 /* SaveData.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		4DE39BAF2704A83900E7960F = {
@@ -229,14 +281,17 @@
 				4D7CE9852706AA8C00E2D134 /* Fonts */,
 				4DE39BEE2704A8B000E7960F /* Storyboards */,
 				4DE39BEF2704A8B900E7960F /* ViewControllers */,
+				4D999A002706FEE600633400 /* Model */,
+				4D7CE9AE2706E1E500E2D134 /* Storage */,
 				4D7CE9862706AAB700E2D134 /* Exstension */,
+				4D999A2327079A7600633400 /* Util */,
 				4DE39BBB2704A83900E7960F /* AppDelegate.swift */,
+				4D999A172707569200633400 /* Assets.xcassets */,
 				4DE39BBD2704A83900E7960F /* SceneDelegate.swift */,
-				4DE39BC72704A83B00E7960F /* Assets.xcassets */,
 				4DE39BC92704A83B00E7960F /* LaunchScreen.storyboard */,
+				4D999A09270709E000633400 /* GoogleService-Info.plist */,
 				4DE39BCC2704A83B00E7960F /* Info.plist */,
 				4DE39BC42704A83900E7960F /* SejongsAirplane.xcdatamodeld */,
-				4DE2587527061264006EA469 /* GoogleService-Info.plist */,
 			);
 			path = SejongsAirplane;
 			sourceTree = "<group>";
@@ -279,9 +334,7 @@
 				4D7CE9A32706CDBD00E2D134 /* Home */,
 				4D7CE9A62706CDD400E2D134 /* Club */,
 				4D7CE9A72706CDD800E2D134 /* Food */,
-				4D7CE9A82706CDDC00E2D134 /* Map */,
 				4D7CE9A92706CDDF00E2D134 /* FAQ */,
-				4D7CE9AA2706CDE600E2D134 /* Road */,
 				4D7CE9AB2706CDF500E2D134 /* Setting */,
 			);
 			path = ViewControllers;
@@ -321,7 +374,7 @@
 				4DE39BB42704A83900E7960F /* Sources */,
 				4DE39BB52704A83900E7960F /* Frameworks */,
 				4DE39BB62704A83900E7960F /* Resources */,
-				0288F7D5B9ABC5558319DEB9 /* [CP] Embed Pods Frameworks */,
+				B145B131A602F61323DB38DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -359,7 +412,7 @@
 				4DE39BD82704A83B00E7960F /* Sources */,
 				4DE39BD92704A83B00E7960F /* Frameworks */,
 				4DE39BDA2704A83B00E7960F /* Resources */,
-				74C09354BC8538E65EA593EA /* [CP] Embed Pods Frameworks */,
+				FCE0440EBEE93D36B0DFB969 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -423,12 +476,12 @@
 				4D7CE9842706AA8500E2D134 /* MyriadPro-Bold.otf in Resources */,
 				4D7CE98E2706B5A200E2D134 /* Map.storyboard in Resources */,
 				4D7CE9902706B5AA00E2D134 /* FAQ.storyboard in Resources */,
+				4D999A0A270709E000633400 /* GoogleService-Info.plist in Resources */,
 				4D7CE98A2706B58B00E2D134 /* Setting.storyboard in Resources */,
 				4D7CE9812706AA5600E2D134 /* MyriadPro-Regular.otf in Resources */,
 				4D7CE98C2706B59900E2D134 /* Road.storyboard in Resources */,
 				4D7CE9922706B5BF00E2D134 /* Food.storyboard in Resources */,
-				4DE2587627061264006EA469 /* GoogleService-Info.plist in Resources */,
-				4DE39BC82704A83B00E7960F /* Assets.xcassets in Resources */,
+				4D999A182707569200633400 /* Assets.xcassets in Resources */,
 				4DE39BC32704A83900E7960F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,23 +503,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0288F7D5B9ABC5558319DEB9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SejongsAirplane/Pods-SejongsAirplane-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SejongsAirplane/Pods-SejongsAirplane-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SejongsAirplane/Pods-SejongsAirplane-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2E96113C99A153AE660679DE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -511,21 +547,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		74C09354BC8538E65EA593EA /* [CP] Embed Pods Frameworks */ = {
+		B145B131A602F61323DB38DF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SejongsAirplane-SejongsAirplaneUITests/Pods-SejongsAirplane-SejongsAirplaneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SejongsAirplane/Pods-SejongsAirplane-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SejongsAirplane-SejongsAirplaneUITests/Pods-SejongsAirplane-SejongsAirplaneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SejongsAirplane/Pods-SejongsAirplane-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SejongsAirplane-SejongsAirplaneUITests/Pods-SejongsAirplane-SejongsAirplaneUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SejongsAirplane/Pods-SejongsAirplane-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F061987B02055E502504E8E7 /* [CP] Check Pods Manifest.lock */ = {
@@ -550,6 +586,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FCE0440EBEE93D36B0DFB969 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SejongsAirplane-SejongsAirplaneUITests/Pods-SejongsAirplane-SejongsAirplaneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SejongsAirplane-SejongsAirplaneUITests/Pods-SejongsAirplane-SejongsAirplaneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SejongsAirplane-SejongsAirplaneUITests/Pods-SejongsAirplane-SejongsAirplaneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -557,18 +610,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D999A022706FEFB00633400 /* FoodModel.swift in Sources */,
 				4D7CE99A2706CD9100E2D134 /* ClubViewController.swift in Sources */,
+				4D999A2D2707C48000633400 /* ClubUploadViewController.swift in Sources */,
 				4D7CE9962706BD0E00E2D134 /* UIBarButtonItem + Extension.swift in Sources */,
 				4D7CE9882706AAE200E2D134 /* Fonts + Exstension.swift in Sources */,
-				4D7CE99E2706CDA300E2D134 /* MapViewController.swift in Sources */,
-				4D7CE9A22706CDB900E2D134 /* RoadViewController.swift in Sources */,
+				4D7CE9B22706ED5B00E2D134 /* FoodTableViewCell.swift in Sources */,
+				4D999A222707966500633400 /* FoodUploadViewController.swift in Sources */,
+				4D999A1E27078C7A00633400 /* FAQTableViewCell.swift in Sources */,
+				4D999A0C27070BE600633400 /* FoodDetailViewController.swift in Sources */,
+				4D999A2B2707BCF700633400 /* UIViewController + Extension.swift in Sources */,
 				4D7CE9A02706CDAF00E2D134 /* FAQViewController.swift in Sources */,
+				4D999A1A270776A400633400 /* ClubModel.swift in Sources */,
 				4DE39BC02704A83900E7960F /* HomeViewController.swift in Sources */,
 				4D7CE99C2706CD9C00E2D134 /* FoodViewController.swift in Sources */,
 				4DE39BC62704A83900E7960F /* SejongsAirplane.xcdatamodeld in Sources */,
+				4D999A2527079A8C00633400 /* LocalDB.swift in Sources */,
+				4D999A2727079EDF00633400 /* SaveData.swift in Sources */,
+				4D7CE9B02706E22F00E2D134 /* BuildingData.swift in Sources */,
 				4D7CE9982706CD7B00E2D134 /* SettingViewController.swift in Sources */,
+				4D999A0E27070C0900633400 /* ReviewTableViewCell.swift in Sources */,
+				4D999A1C2707847400633400 /* ClubDetailViewController.swift in Sources */,
 				4DE39BBC2704A83900E7960F /* AppDelegate.swift in Sources */,
 				4DE39BBE2704A83900E7960F /* SceneDelegate.swift in Sources */,
+				4D999A292707B93A00633400 /* FoodReviewViewController.swift in Sources */,
+				4D999A1027070C6B00633400 /* ReviewModel.swift in Sources */,
+				4D999A2027078D2D00633400 /* FAQModel.swift in Sources */,
+				4D999A122707520E00633400 /* OpenSourceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

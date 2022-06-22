@@ -25,7 +25,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>MyriadPro-Bold.otf</string>
-		<string></string>
+		<string>MyriadPro-Regular.otf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

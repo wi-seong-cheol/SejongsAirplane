@@ -7,13 +7,24 @@ target 'SejongsAirplane' do
 
   # Pods for SejongsAirplane
   
+  # pod NVActivityIndicatorView
+  pod 'NVActivityIndicatorView'
+  
   # Pod Firebase
   pod 'Firebase/Analytics'
   pod 'Firebase/Firestore'
-
+  
+  # Firebase Storage
+  pod 'Firebase/Storage'
+  
+  pod 'Kingfisher'
+  
   pod 'iCarousel'
   
   pod 'CTPanoramaView', '~> 1.3'
+  
+  # pod CropViewController
+  pod 'CropViewController'
   
   target 'SejongsAirplaneTests' do
     inherit! :search_paths

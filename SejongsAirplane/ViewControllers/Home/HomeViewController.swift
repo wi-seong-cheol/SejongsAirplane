@@ -8,11 +8,16 @@
 import UIKit
 import CTPanoramaView
 import iCarousel
+import NVActivityIndicatorView
 
 class HomeViewController: UIViewController {
     
+    @IBOutlet var mainView: UIView!
+    var indicator: NVActivityIndicatorView?
     var transparentView = UIView()
     var menuState = false
+    var descState = false
+    var place = ["정문", "쪽문", "기숙사", "세종초등학교", "학술정보원", "충무관 율곡관 영실관", "용덕관 진관홀", "다산관" ,"박물관", "AI센터", "군자관", "세종관", "모짜르트홀", "집현관", "광개토관", "대양홀 학생회관", "애지헌", "이당관"]
     
     let myCarousel: iCarousel = {
         let view = iCarousel()
@@ -41,6 +46,7 @@ class HomeViewController: UIViewController {
     }
     
     func debugLabel() {
+        descLabel.isHidden = true
         pagerContainer.backgroundColor = .clear
         menuView.isHidden = true
         backView.isHidden = true
@@ -50,11 +56,12 @@ class HomeViewController: UIViewController {
         self.navigationItem.backBarButtonItem = UIBarButtonItem.BackButton()
         addViewAction()
         setFont()
+        descLabel.tintColor = .white
     }
     
     func loadCylindricalImage() {
-        panoramaView.image = UIImage(named: "Sample6")
-        panoramaView.controlMethod = .touch//.motion
+        panoramaView.image = UIImage(named: "정문")
+        panoramaView.controlMethod = .motion
     }
     
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
@@ -62,12 +69,19 @@ class HomeViewController: UIViewController {
     }
     
     func setFont() {
+        descLabel.font = UIFont.MyriadPro(type: .regular, size: 12)
         clubLabel.font = UIFont.MyriadPro(type: .bold, size: 16)
         foodLabel.font = UIFont.MyriadPro(type: .bold, size: 16)
         mapLabel.font = UIFont.MyriadPro(type: .bold, size: 16)
         FAQLabel.font = UIFont.MyriadPro(type: .bold, size: 16)
         roadLabel.font = UIFont.MyriadPro(type: .bold, size: 16)
         settingLabel.font = UIFont.MyriadPro(type: .bold, size: 16)
+        
+        let attrString = NSMutableAttributedString(string: descLabel.text!)
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.lineSpacing = 10
+        attrString.addAttribute(NSAttributedString.Key.paragraphStyle, value: paragraphStyle, range: NSMakeRange(0, attrString.length))
+        descLabel.attributedText = attrString
     }
     
     func addViewAction() {
@@ -113,9 +127,7 @@ class HomeViewController: UIViewController {
     
     @IBAction func menu(_ sender: Any) {
         if menuState {
-            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1.0, initialSpringVelocity: 1.0, options: .curveEaseOut, animations: {
-                self.backView.alpha = 0
-            }, completion: nil)
+
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1.0, initialSpringVelocity: 1.0, options: .curveEaseOut, animations: {
                 self.menuView.alpha = 0
             }, completion: nil)
@@ -135,11 +147,26 @@ class HomeViewController: UIViewController {
         }
     }
     
+    @IBAction func descButton(_ sender: Any) {
+        if descState {
+            descLabel.isHidden = true
+            descButton.setImage(UIImage(named: "chevronDown_asset"), for: .normal)
+            descState = false
+        } else {
+            descLabel.isHidden = false
+            descButton.setImage(UIImage(named: "chevronUp_asset"), for: .normal)
+            descState = true
+        }
+    }
+    
     @IBOutlet weak var panoramaView: CTPanoramaView!
     @IBOutlet weak var pagerContainer: UIView!
     @IBOutlet weak var backView: UIView!
     @IBOutlet weak var menuView: UIView!
     @IBOutlet weak var menuButton: UIButton!
+    @IBOutlet weak var descButton: UIButton!
+    
+    @IBOutlet weak var descLabel: UILabel!
     
     // Menu View
     @IBOutlet weak var clubView: UIView!
@@ -160,20 +187,44 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: iCarouselDataSource {
     func numberOfItems(in carousel: iCarousel) -> Int {
-        10
+        print(place.count)
+        return place.count
+    }
+    
+    func carousel(_ carousel: iCarousel, valueFor option: iCarouselOption, withDefault value: CGFloat) -> CGFloat {
+
+        switch option {
+        case .spacing:
+            return CGFloat(1.2)
+        default:
+            return value
+        }
     }
     
     func carousel(_ carousel: iCarousel, viewForItemAt index: Int, reusing view: UIView?) -> UIView {
-        let width = self.view.frame.size.width/3
+        let width = self.view.frame.size.width/2
         let height = CGFloat(60)
-        let view = UIView(frame: CGRect(x: 0, y: 0, width: width, height: height))
-        view.backgroundColor = .red
-        return view
+        
+        var imageView: UIImageView!
+        if view == nil {
+            imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: width, height: height))
+            imageView.contentMode = .scaleAspectFill
+        } else {
+            imageView = view as? UIImageView
+        }
+        
+        imageView.image = UIImage(named: place[index])
+        
+        return imageView
     }
 }
 
 extension HomeViewController: iCarouselDelegate {
     func carouselDidEndScrollingAnimation(_ carousel: iCarousel) {
+        let index = carousel.currentItemIndex
+        self.navigationController?.navigationBar.topItem?.title = place[index]
+        panoramaView.image = UIImage(named: place[index])
+        descLabel.text =  BuildingData.shared.buildingDesc(place[index])
         print(carousel.currentItemIndex)
     }
 }
