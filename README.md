@@ -29,7 +29,7 @@
 
 ## Technologies
 - [x] VR ([CTPanorama](https://github.com/scihant/CTPanoramaView))
-- [x] Firebase Cloud Message ([Firebase Cloud Message](https://firebase.google.com/docs/cloud-messaging/ios/client))
+- [x] Firebase Firestore ([Firebase Firestore](https://firebase.google.com/docs/cloud-messaging/ios/client))
 - [ ] Dependency injection ([Swinject](https://github.com/Swinject/Swinject))
 - [ ] Add tests
 
